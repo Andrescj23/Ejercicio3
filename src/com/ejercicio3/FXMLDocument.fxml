@@ -8,14 +8,14 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9" fx:controller="ejercicio3.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ejercicio3.Controller.LoginController">
     <children>
-        <Button fx:id="button" layoutX="264.0" layoutY="293.0" onAction="#handleButtonAction" text="ENTRAR" />
+        <Button layoutX="264.0" layoutY="293.0" onAction="#login" text="ENTRAR" />
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
       <Text layoutX="92.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USUARIO" wrappingWidth="68.99999678134918" />
       <Text layoutX="92.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD" />
-      <TextField layoutX="379.0" layoutY="143.0" />
-      <PasswordField layoutX="379.0" layoutY="211.0" />
+      <TextField fx:id="txtLogin" layoutX="379.0" layoutY="143.0" />
+      <PasswordField fx:id="txtPassword" layoutX="379.0" layoutY="211.0" />
       <Line endX="500.0" layoutX="101.0" layoutY="52.0" startX="-100.0" />
       <Text layoutX="34.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido Usuario" wrappingWidth="115.98307228088379" />
     </children>
