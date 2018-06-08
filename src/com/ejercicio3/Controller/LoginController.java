@@ -18,7 +18,7 @@ public class LoginController implements Initializable {
     
     public void login (){
         
-        if(txtPassword.getText().equals("admmin123")){
+        if(txtPassword.getText().equals("admin123")){
             javax.swing.JOptionPane.showMessageDialog(null,
                     "Bienvenido" + txtLogin.getText());
         }else{ 
